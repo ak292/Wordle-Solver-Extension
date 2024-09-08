@@ -4,7 +4,6 @@ chrome.webRequest.onCompleted.addListener(
   async function (details) {
     if (details.url.includes("json") && details.url.includes("2024") && details.initiator !== "chrome-extension://" + chrome.runtime.id) {
       let response = await fetch(details.url);
-      console.log("hi2");
       response = await response.json();
 
       console.log(response.solution);

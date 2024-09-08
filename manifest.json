@@ -8,6 +8,11 @@
     "128": "wordle.png"
   },
   "version": "1.0.0",
+  "action": {
+    "default_icon": "wordle.png",
+    "default_title": "Wordle Solver",
+    "default_popup": "popup/popup.html"
+  },
   "background": {
     "service_worker": "background.js"
   },
