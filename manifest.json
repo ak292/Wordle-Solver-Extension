@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Wordle Solver",
+  "description": "Solve your daily Wordle game automatically!",
+  "icons": {
+    "16": "wordle.png",
+    "48": "wordle.png",
+    "128": "wordle.png"
+  },
+  "version": "1.0.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["webRequest", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
