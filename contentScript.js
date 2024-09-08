@@ -60,6 +60,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
               index++;
               setTimeout(typeWord, 200);
             } else {
+              chrome.runtime.sendMessage({ action: "wordleSolved" });
               setTimeout(() => simulateKeypress("Enter"), 200);
             }
           }

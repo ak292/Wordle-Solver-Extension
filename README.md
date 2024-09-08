@@ -6,7 +6,7 @@ Created a Wordle solver Chrome Extension that will automatically solve your Word
 
 Here is an example of it in action:
 
-![GIF of Wordle Extension](https://imgur.com/oXXiMli.gif)
+![GIF of Wordle Extension](https://imgur.com/1mCwhZR.gif)
 
 ### How to Run
 
