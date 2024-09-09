@@ -10,7 +10,7 @@ The extension is able to figure out the daily word to guess by intercepting the 
 
 Here is an example of it in action:
 
-![GIF of Wordle Extension](https://imgur.com/xSWvv5S.gif)
+![GIF of Wordle Extension](https://imgur.com/sQlJNTi.gif)
 
 ### How to Run
 
