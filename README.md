@@ -1,6 +1,6 @@
 # Wordle Solver Chrome Extension
 
-Created a Wordle solver Chrome Extension that will automatically solve your Wordle game as soon as you visit the webpage (you can take your hands off the mouse & keyboard as it clicks the play button and gets past any notifications and types the word for you).
+Created a Wordle solver Chrome Extension that will automatically solve your Wordle game at the press of a button (you can take your hands off the mouse & keyboard as it clicks the play button and gets past any notifications and types the word for you).
 
 This project was done purely for fun and to get more experience with Chrome APIs (webRequest, storage) as well as content scripts and background scripts.
 
@@ -10,7 +10,7 @@ The extension is able to figure out the daily word to guess by intercepting the 
 
 Here is an example of it in action:
 
-![GIF of Wordle Extension](https://imgur.com/1mCwhZR.gif)
+![GIF of Wordle Extension](https://imgur.com/xSWvv5S.gif)
 
 ### How to Run
 
