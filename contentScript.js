@@ -70,6 +70,6 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       }, 2000);
 
       clearInterval(play);
-    }, 3000);
+    }, 1000);
   }
 });
