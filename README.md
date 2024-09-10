@@ -17,4 +17,5 @@ Here is an example of it in action:
 This was not published to the Google Chrome store as it was meant to be just for educational purposes, but if you want to test it out, you need to:
 
 1. Open Google Chrome and go to chrome://extensions
-2. In the upper right corner, click on "Load Unpacked" and select this folder (that you can download as a ZIP from GitHub)
+2. Make sure you toggle Developer mode on
+3. In the upper right corner, click on "Load Unpacked" and select this folder (that you can download as a ZIP from GitHub)
